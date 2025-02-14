@@ -56,5 +56,5 @@ def show_phone(args: list, contacts: dict):
 
 def show_all(contacts: dict):
 
-    for name, phone in contacts.items():
-        print(f"{name.title()}.....{phone}")
+    for name in contacts:
+        print(f"{name.title()}.....{contacts[name]}")
