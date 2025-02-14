@@ -1,8 +1,7 @@
 from colorama import Fore, Style
-from pathlib import Path
 
 
-def directory_structure(path: Path, divider: str = ""):
+def directory_structure(path: str, divider: str = ""):
     try:
         # entries = sorted(path.iterdir(), key=lambda e: not e.is_dir(), e.name.lower())) (  # Сортування складових шляху (спочатку папки, потім файли)
 
